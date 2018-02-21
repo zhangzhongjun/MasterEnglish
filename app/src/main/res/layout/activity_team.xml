@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="开发者：山西大学计算机科学与技术系app开发小组" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:background="#10000000" >
+
+        <ImageView
+            android:id="@+id/iv_me_guanyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/sxu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_me_guanyu"
+            android:layout_centerHorizontal="true"
+            android:text="山西大學" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:text="本软件的单词翻译功能由webxml提供,欢迎访问他们的主站：http://www.webxml.com.cn/zh_cn/index.aspx" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:background="#10000000" >
+
+        <ImageView
+            android:id="@+id/iv_me_guanyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/webxml" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_me_guanyu"
+            android:layout_centerHorizontal="true"
+            android:text="webxml" />
+    </RelativeLayout>
+
+
+</LinearLayout>

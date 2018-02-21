@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="150dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="20sp" />
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:textColor="#8000ff00"
+        android:paddingLeft="10dip"
+        android:id="@+id/tv_description_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+</LinearLayout>

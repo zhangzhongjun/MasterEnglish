@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title_tran"
+        style="@style/title"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text=""
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:id="@+id/sc_tran"
+        android:layout_width="fill_parent"
+        android:layout_height="450.0dip" >
+
+        <LinearLayout
+            android:id="@+id/ll_tran"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_tran_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20.0sp" />
+
+            <TextView
+                android:id="@+id/tv_tran_body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginTop="15.0dip"
+                android:lineSpacingExtra="5.0dip"
+                android:text=""
+                android:textColor="#ff000000"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

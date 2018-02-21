@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:gravity="center"
+    android:paddingLeft="5dip" >
+
+    <TextView
+        android:id="@+id/tv_if_xianshi_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/if_xianshi"
+        android:textColor="#ff000000"
+        android:textSize="18.0sp" />
+
+    <TextView
+        android:id="@+id/tv_desc_xianshi_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_if_xianshi_setting"
+        android:layout_marginLeft="5dip"
+        android:text="@string/on_xianshi"
+        android:textColor="#88000000"
+        android:textSize="16.0sp" />
+
+    <CheckBox
+        android:id="@+id/cb_status_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:clickable="false" />
+
+</RelativeLayout>

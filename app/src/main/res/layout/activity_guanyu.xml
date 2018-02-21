@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/mypress"
+        android:clickable="true"
+        android:onClick="back"
+        android:paddingLeft="20dip" >
+
+        <Button
+            android:id="@+id/bt_back_guanyu"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_centerVertical="true"
+            android:background="@drawable/myback"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@id/bt_back_guanyu"
+            android:text="@string/guanyu"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:background="#10000000" >
+
+        <ImageView
+            android:id="@+id/iv_me_guanyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/me" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_me_guanyu"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dip"
+        android:background="#50000000" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:background="@drawable/mypress"
+        android:onClick="team"
+        android:paddingLeft="10dip" >
+
+        <TextView
+            android:id="@+id/tv_text_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:gravity="center_vertical"
+            android:text="@string/team_guanyu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dip"
+            android:src="@drawable/takeout_register_right_arrow" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="#50000000" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:background="@drawable/mypress"
+        android:paddingLeft="10dip"
+        android:onClick="help" >
+
+        <TextView
+            android:id="@+id/tv_text_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:gravity="center_vertical"
+            android:text="@string/help_guanyu" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dip"
+            android:src="@drawable/takeout_register_right_arrow" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="#50000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+</LinearLayout>

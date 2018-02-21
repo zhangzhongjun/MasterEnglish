@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sxu="http://schemas.android.com/apk/res/com.sxu.cs.me2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title"
+        android:text="设置中心" />
+
+    <com.sxu.cs.me2.ui.SettingItem
+        android:id="@+id/si_if_on_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="#50000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_setting_zidingyi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginTop="8.0dip"
+            android:text="@string/title_zidingyi"
+            android:textColor="#40ff0000"
+            android:textSize="18.0sp" />
+
+        <EditText
+            android:id="@+id/et_setting_zidingyi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:hint="@string/hint_zidingyi"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="#50000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip" >
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="#50000000" />
+
+    <com.sxu.cs.me2.ui.SettingItem2
+        android:id = "@+id/si2_tuijian_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        sxu:myIcon="@drawable/takeout_ic_feedback"
+        sxu:myText="@string/text1_setting" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="#50000000" />
+
+    <com.sxu.cs.me2.ui.SettingItem2
+        android:id="@+id/si2_gunayu_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        sxu:myIcon="@drawable/takeout_ic_info"
+        sxu:myText="@string/text2_setting" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dip"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="#50000000" />
+
+</LinearLayout>

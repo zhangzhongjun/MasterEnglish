@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ll_article_example"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_article_yuanci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在查询。。。" />
+
+        <TextView
+            android:id="@+id/tv_article_yinbiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_article_yuanci"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_article_example"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_article_yinbiao"
+            android:ellipsize="marquee"
+            android:text="" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:drawableRight="@drawable/icon_navigation_local_music"
+            android:onClick="duYin" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title_article"
+        style="@style/title"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="toTop"
+        android:singleLine="true"
+        android:text="" />
+
+    <ScrollView
+        android:id="@+id/sv_article"
+        android:layout_width="fill_parent"
+        android:layout_height="450.0dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_article_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20.0sp" />
+
+            <TextView
+                android:id="@+id/tv_article_body"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginTop="15.0dip"
+                android:focusable="true"
+                android:lineSpacingExtra="5.0dip"
+                android:text=""
+                android:textColor="#ff000000"
+                android:textIsSelectable="true"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

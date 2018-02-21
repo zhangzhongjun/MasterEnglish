@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MasterEnglish</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hope">希望我这一辈子，不只是仰望他人</string>
+    <string name="if_xianshi">显示开机话语</string>
+    <string name="on_xianshi">当前设置为显示开机话语</string>
+    <string name="off_xianshi">当前设置为不显示开机话语</string>
+    <string name="title_zidingyi">自定义开机话语内容：</string>
+    <string name="hint_zidingyi">写点什么吧</string>
+    <string name="text1_setting">推荐给朋友</string>
+    <string name="text2_setting">关于</string>
+    <string name="tuijian_setting">发送短信给基友</string>
+    <string name="tuijianyu_setting">自从用了令德最强男子天团开发的masterEnglish，头不疼了，腰不酸了，连女朋友都找到了。你一定也要用哦</string>
+    <string name="guanyu">关于</string>
+    <string name="team_guanyu">开发团队</string>
+    <string name="help_guanyu">使用帮助</string>
+    <string name="story_help">开发故事</string>
+
+</resources>

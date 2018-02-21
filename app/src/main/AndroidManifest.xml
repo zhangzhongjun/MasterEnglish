@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sxu.cs.me2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sxu.cs.me2.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sxu.cs.me2.activity.HomeActivity" />
+        <activity android:name="com.sxu.cs.me2.activity.ReadActivity" />
+        <activity android:name="com.sxu.cs.me2.activity.SettingActivity" />
+        <activity android:name="com.sxu.cs.me2.activity.GuanYuActivity" />
+        <activity android:name="com.sxu.cs.me2.activity.ArticleActivity" />
+        <activity android:name="com.sxu.cs.me2.activity.TranslateActivity" />\
+        <activity android:name="com.sxu.cs.me2.activity.BottomTabActivity"/>
+       <activity android:name="com.sxu.cs.me2.activity.Read2Activity"/>
+       <activity android:name="com.sxu.cs.me2.activity.TeamActivity"/>
+       <activity android:name="com.sxu.cs.me2.activity.HelpActivity"/>
+       
+    </application>
+
+</manifest>
