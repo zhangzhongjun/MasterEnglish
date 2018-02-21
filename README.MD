@@ -9,3 +9,9 @@
 使用了webservice
 1. http://fy.webxml.com.cn/webservices/EnglishChinese.asmx/TranslatorString?wordKey=hello
 2. "http://fy.webxml.com.cn/sound/" + duYin
+
+## 文档和证书
+该作品是本科时候的期末大作业
+* 文档见 MasterEnglish软件用户使用手册.doc
+* 证书见 MasterEnglish英语课文学习软件_软著.pdf
+* 最新版本的安装文件见 ME2.apk
